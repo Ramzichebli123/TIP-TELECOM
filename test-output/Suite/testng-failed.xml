@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="http://localhost:8081/login"/>
+  <listeners>
+    <listener class-name="Listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="End To End Test(failed)">
+    <classes>
+      <class name="com.invoice_portal.testcase.GestionUtilisateur">
+        <methods>
+          <include name="SetUp"/>
+          <include name="Test_User_Amira"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.invoice_portal.testcase.GestionUtilisateur -->
+      <class name="com.invoice_portal.testcase.GestionOperation">
+        <methods>
+          <include name="Supprimer_opérations"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="Ajouter_Opérations"/>
+        </methods>
+      </class> <!-- com.invoice_portal.testcase.GestionOperation -->
+      <class name="com.invoice_portal.testcase.Authentification">
+        <methods>
+          <include name="login"/>
+          <include name="tearDown"/>
+          <include name="SetUp_Authentification"/>
+        </methods>
+      </class> <!-- com.invoice_portal.testcase.Authentification -->
+      <class name="com.invoice_portal.testcase.GestionRubrique">
+        <methods>
+          <include name="SetUp"/>
+          <include name="Ajouter_Operation"/>
+          <include name="Supprimer_Ribrique"/>
+          <include name="Parametre__Background"/>
+          <include name="Recherche_Rapide"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.invoice_portal.testcase.GestionRubrique -->
+      <class name="com.invoice_portal.testcase.RechercheFacture">
+        <methods>
+          <include name="Click_Boutton_Supprimer"/>
+          <include name="Click_Bouton_Envoyer_Par_Email"/>
+          <include name="tearDown"/>
+          <include name="Click_Bouton_Detail"/>
+          <include name="Click_Bouton_Telecharger"/>
+          <include name="Click_Bouton_Exporter_Vers_ExcelWordXml"/>
+          <include name="Click_Bouton_Consulter"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.invoice_portal.testcase.RechercheFacture -->
+      <class name="com.invoice_portal.testcase.JournalAction">
+        <methods>
+          <include name="Recherche_Rapide"/>
+          <include name="Choisir_Type_Action"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="Click_bouton_details"/>
+        </methods>
+      </class> <!-- com.invoice_portal.testcase.JournalAction -->
+      <class name="com.invoice_portal.testcase.DemandeSignature">
+        <methods>
+          <include name="Clique_Voir_Historique"/>
+          <include name="Documents_Verifier"/>
+          <include name="Documents_Non_Signes"/>
+          <include name="Documents_Supprimes_pour_verifiés"/>
+          <include name="Documents_Supprimes"/>
+          <include name="tearDown"/>
+          <include name="Documents_Non_Verifies"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.invoice_portal.testcase.DemandeSignature -->
+    </classes>
+  </test> <!-- End To End Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

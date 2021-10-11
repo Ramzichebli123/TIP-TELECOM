@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Invoice Portal TT Application Test]" guice-stage="DEVELOPMENT">
+  <parameter name="URL" value="http://localhost:8081/login"/>
+  <listeners>
+    <listener class-name="Listener.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="End To End Test(failed)">
+    <classes>
+      <class name="com.invoice_portal.testcase.DemandeSignature">
+        <methods>
+          <include name="Clique_Voir_Historique" invocation-numbers="0"/>
+          <include name="Documents_Verifier" invocation-numbers="0"/>
+          <include name="Documents_Non_Signes" invocation-numbers="0"/>
+          <include name="Documents_Supprimes_pour_verifiés" invocation-numbers="0"/>
+          <include name="Documents_Supprimes" invocation-numbers="0"/>
+          <include name="tearDown"/>
+          <include name="Documents_Non_Verifies" invocation-numbers="0"/>
+          <include name="SetUp"/>
+        </methods>
+      </class> <!-- com.invoice_portal.testcase.DemandeSignature -->
+    </classes>
+  </test> <!-- End To End Test(failed) -->
+</suite> <!-- Failed suite [Invoice Portal TT Application Test] -->

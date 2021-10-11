@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Invoice Portal TT Application Test">
+	<listeners>
+		<listener class-name="Listener.Listeners"></listener>
+	</listeners>
+	<parameter name="URL" value="http://localhost:8081/login"></parameter>
+	<test thread-count="5" name="End To End Test">
+		<classes>
+			<class name="com.invoice_portal.testcase.Config" />
+			<class name="com.invoice_portal.testcase.Authentification" />
+			<class name="com.invoice_portal.testcase.RechercheFacture" />
+			<class name="com.invoice_portal.testcase.JournalAction" />
+			<class name="com.invoice_portal.testcase.GestionOperation" />
+			<class name="com.invoice_portal.testcase.GestionRubrique" />
+			<class name="com.invoice_portal.testcase.DemandeSignature" />
+			<class name="com.invoice_portal.testcase.GestionUtilisateur" />
+
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite, 6 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Invoice_Portal_TT_Application_Test" class="navigator-link">
+              <span class="suite-name border-failed">Invoice Portal TT Application Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Invoice_Portal_TT_Application_Test" class="navigator-link ">
+                    <span>testng3.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Invoice_Portal_TT_Application_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Invoice_Portal_TT_Application_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Invoice_Portal_TT_Application_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Invoice_Portal_TT_Application_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Invoice_Portal_TT_Application_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Invoice_Portal_TT_Application_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">6 methods, 6 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Invoice_Portal_TT_Application_Test" class="hide-methods failed suite-Invoice_Portal_TT_Application_Test"> (hide)</a> <!-- hide-methods failed suite-Invoice_Portal_TT_Application_Test -->
+                      <a href="#" panel-name="suite-Invoice_Portal_TT_Application_Test" class="show-methods failed suite-Invoice_Portal_TT_Application_Test"> (show)</a> <!-- show-methods failed suite-Invoice_Portal_TT_Application_Test -->
+                    </span>
+                    <div class="method-list-content failed suite-Invoice_Portal_TT_Application_Test">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Portal_TT_Application_Test" title="com.invoice_portal.testcase.DemandeSignature" class="method navigator-link" hash-for-method="Clique_Voir_Historique(public void com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(java.lang.reflect.Me...)">Clique_Voir_Historique(public void com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(java.lang.reflect.Me...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Portal_TT_Application_Test" title="com.invoice_portal.testcase.DemandeSignature" class="method navigator-link" hash-for-method="Documents_Non_Signes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(java.lang.reflect.Meth...)">Documents_Non_Signes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(java.lang.reflect.Meth...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Portal_TT_Application_Test" title="com.invoice_portal.testcase.DemandeSignature" class="method navigator-link" hash-for-method="Documents_Non_Verifies(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(java.lang.reflect.Me...)">Documents_Non_Verifies(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(java.lang.reflect.Me...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Portal_TT_Application_Test" title="com.invoice_portal.testcase.DemandeSignature" class="method navigator-link" hash-for-method="Documents_Supprimes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(java.lang.reflect.Metho...)">Documents_Supprimes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(java.lang.reflect.Metho...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Portal_TT_Application_Test" title="com.invoice_portal.testcase.DemandeSignature" class="method navigator-link" hash-for-method="Documents_Supprimes_pour_verifiés(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(java.lang...)">Documents_Supprimes_pour_verifiés(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(java.lang...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Invoice_Portal_TT_Application_Test" title="com.invoice_portal.testcase.DemandeSignature" class="method navigator-link" hash-for-method="Documents_Verifier(public void com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(java.lang.reflect.Method...)">Documents_Verifier(public void com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(java.lang.reflect.Method...)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Invoice_Portal_TT_Application_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Invoice_Portal_TT_Application_Test" class="panel Invoice_Portal_TT_Application_Test">
+          <div class="suite-Invoice_Portal_TT_Application_Test-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.invoice_portal.testcase.DemandeSignature</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Clique_Voir_Historique(public void com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(java.lang.reflect.Me...)">
+                  </a> <!-- Clique_Voir_Historique(public void com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(java.lang.reflect.Me...) -->
+                  <span class="method-name">Clique_Voir_Historique</span>
+                  <span class="parameters">(public void com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <div class="stack-trace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;IMEX&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.11.0-34-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: /tmp/.com.google.Chrome.ZgU6Ze}, goog:chromeOptions: {debuggerAddress: localhost:41819}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2215187e49af0764a45aefa2a65ad024
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:363)
+	at com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(DemandeSignature.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Documents_Non_Signes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(java.lang.reflect.Meth...)">
+                  </a> <!-- Documents_Non_Signes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(java.lang.reflect.Meth...) -->
+                  <span class="method-name">Documents_Non_Signes</span>
+                  <span class="parameters">(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <div class="stack-trace">java.lang.AssertionError: http://localhost:8081/admin/HistoriqueUploadAnce/ expected:&lt;http://localhost:8081/admin/HistoriqueUploadAnce/&gt; but was:&lt;La page documents non signés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(DemandeSignature.java:114)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Documents_Non_Verifies(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(java.lang.reflect.Me...)">
+                  </a> <!-- Documents_Non_Verifies(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(java.lang.reflect.Me...) -->
+                  <span class="method-name">Documents_Non_Verifies</span>
+                  <span class="parameters">(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <div class="stack-trace">java.lang.AssertionError: http://localhost:8081/admin/historiqueVerify expected:&lt;http://localhost:8081/admin/historiqueVerify&gt; but was:&lt;La page documents non vérifiés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(DemandeSignature.java:171)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Documents_Supprimes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(java.lang.reflect.Metho...)">
+                  </a> <!-- Documents_Supprimes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(java.lang.reflect.Metho...) -->
+                  <span class="method-name">Documents_Supprimes</span>
+                  <span class="parameters">(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <div class="stack-trace">java.lang.AssertionError: http://localhost:8081/admin/HistoriqueUploadAnce/ expected:&lt;http://localhost:8081/admin/HistoriqueUploadAnce/&gt; but was:&lt;La page documents supprimés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(DemandeSignature.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Documents_Supprimes_pour_verifiés(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(java.lang...)">
+                  </a> <!-- Documents_Supprimes_pour_verifiés(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(java.lang...) -->
+                  <span class="method-name">Documents_Supprimes_pour_verifiés</span>
+                  <span class="parameters">(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <div class="stack-trace">java.lang.AssertionError: http://localhost:8081/admin/historiqueVerify expected:&lt;http://localhost:8081/admin/historiqueVerify&gt; but was:&lt;La page documents supprimés pour vérifiés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(DemandeSignature.java:193)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Documents_Verifier(public void com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(java.lang.reflect.Method...)">
+                  </a> <!-- Documents_Verifier(public void com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(java.lang.reflect.Method...) -->
+                  <span class="method-name">Documents_Verifier</span>
+                  <span class="parameters">(public void com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(java.lang.reflect.Method) throws java.lang.InterruptedException)</span>
+                  <div class="stack-trace">java.lang.AssertionError: http://localhost:8081/admin/historiqueVerify expected:&lt;http://localhost:8081/admin/historiqueVerify&gt; but was:&lt;La page documents vérifiés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(DemandeSignature.java:150)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Invoice_Portal_TT_Application_Test-class-failed -->
+        </div> <!-- panel Invoice_Portal_TT_Application_Test -->
+        <div panel-name="test-xml-Invoice_Portal_TT_Application_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/home/chebli/eclipse-workspace/TIP-TELECOM/testng3.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Invoice Portal TT Application Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;http://localhost:8081/login&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listener.Listeners&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;End To End Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.invoice_portal.testcase.Config&quot;/&gt;
+      &lt;class name=&quot;com.invoice_portal.testcase.DemandeSignature&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- End To End Test --&gt;
+&lt;/suite&gt; &lt;!-- Invoice Portal TT Application Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Invoice_Portal_TT_Application_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Invoice Portal TT Application Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">End To End Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Invoice_Portal_TT_Application_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Invoice Portal TT Application Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Invoice_Portal_TT_Application_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Invoice Portal TT Application Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Invoice_Portal_TT_Application_Test');
+function tableData_Invoice_Portal_TT_Application_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(6);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Documents_Non_Verifies')
+data.setCell(0, 2, 'com.invoice_portal.testcase.DemandeSignature')
+data.setCell(0, 3, 40521);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Clique_Voir_Historique')
+data.setCell(1, 2, 'com.invoice_portal.testcase.DemandeSignature')
+data.setCell(1, 3, 31409);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Documents_Non_Signes')
+data.setCell(2, 2, 'com.invoice_portal.testcase.DemandeSignature')
+data.setCell(2, 3, 30807);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Documents_Supprimes_pour_verifiés')
+data.setCell(3, 2, 'com.invoice_portal.testcase.DemandeSignature')
+data.setCell(3, 3, 30553);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Documents_Supprimes')
+data.setCell(4, 2, 'com.invoice_portal.testcase.DemandeSignature')
+data.setCell(4, 3, 28423);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Documents_Verifier')
+data.setCell(5, 2, 'com.invoice_portal.testcase.DemandeSignature')
+data.setCell(5, 3, 18341);
+window.suiteTableData['Invoice_Portal_TT_Application_Test']= { tableData: data, tableDiv: 'times-div-Invoice_Portal_TT_Application_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-Invoice_Portal_TT_Application_Test">
+              </div> <!-- times-div-Invoice_Portal_TT_Application_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Invoice_Portal_TT_Application_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Invoice Portal TT Application Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Invoice_Portal_TT_Application_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.invoice_portal.testcase.DemandeSignature</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">Upload_File</span>
+                <br/>
+                <span class="ignored-method-name">Drag_And_Drop</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Invoice_Portal_TT_Application_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.invoice_portal.testcase.Config</div> <!-- chronological-class-name -->
+              <div class="configuration-suite before">
+                <span class="method-name">Start</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-suite before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.invoice_portal.testcase.DemandeSignature</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp(http://localhost:8081/login, public void com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Hi...)</span>
+                <span class="method-start">425 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Clique_Voir_Historique(public void com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(java.lang.reflect.Me...)</span>
+                <span class="method-start">38234 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(java.lang.reflect.Me...)</span>
+                <span class="method-start">70367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp(http://localhost:8081/login, public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_...)</span>
+                <span class="method-start">70840 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Documents_Non_Signes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(java.lang.reflect.Meth...)</span>
+                <span class="method-start">105781 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(java.lang.reflect.Meth...)</span>
+                <span class="method-start">137054 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp(http://localhost:8081/login, public void com.invoice_portal.testcase.DemandeSignature.Documents_Supp...)</span>
+                <span class="method-start">138362 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Documents_Supprimes(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(java.lang.reflect.Metho...)</span>
+                <span class="method-start">172749 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(java.lang.reflect.Metho...)</span>
+                <span class="method-start">201885 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp(http://localhost:8081/login, public void com.invoice_portal.testcase.DemandeSignature.Documents_Veri...)</span>
+                <span class="method-start">202375 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Documents_Verifier(public void com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(java.lang.reflect.Method...)</span>
+                <span class="method-start">236017 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(java.lang.reflect.Method...)</span>
+                <span class="method-start">254756 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp(http://localhost:8081/login, public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_...)</span>
+                <span class="method-start">255176 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Documents_Non_Verifies(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(java.lang.reflect.Me...)</span>
+                <span class="method-start">291742 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(java.lang.reflect.Me...)</span>
+                <span class="method-start">333966 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp(http://localhost:8081/login, public void com.invoice_portal.testcase.DemandeSignature.Documents_Supp...)</span>
+                <span class="method-start">334377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">Documents_Supprimes_pour_verifiés(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(java.lang...)</span>
+                <span class="method-start">367757 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown(public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(java.lang...)</span>
+                <span class="method-start">398711 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.invoice_portal.testcase.Config</div> <!-- chronological-class-name -->
+              <div class="configuration-suite after">
+                <span class="method-name">End</span>
+                <span class="method-start">399330 ms</span>
+              </div> <!-- configuration-suite after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

@@ -1,0 +1,16 @@
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/RechercheFacture.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/BaseTest/TestBase.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/Authentification.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/DemandeSignature.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/JournalAction.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/Consultation.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/HistoriqueUpload.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/SimulationData.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/GestionRubrique.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/Listener/Listeners.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/SaisieExtrait.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/Config.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/GestionUtilisateur.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/SimulationFixeGSM.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/GestionOperation.java
+/home/chebli/eclipse-workspace/TIP-TELECOM/src/test/java/com/invoice_portal/testcase/TransformationTTN.java

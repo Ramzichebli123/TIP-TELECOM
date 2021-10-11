@@ -1,0 +1,56 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Invoice Portal TT Application Test</th></tr>
+<tr><td><a href="#t0">End To End Test</a></td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num attn">6</td><td class="num">398 623</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Invoice Portal TT Application Test</th></tr></tbody><tbody id="t0"><tr><th colspan="4">End To End Test &#8212; failed</th></tr><tr class="failedeven"><td rowspan="6">com.invoice_portal.testcase.DemandeSignature</td><td><a href="#m0">Clique_Voir_Historique</a></td><td rowspan="1">1632309209777</td><td rowspan="1">31409</td></tr><tr class="failedeven"><td><a href="#m1">Documents_Non_Signes</a></td><td rowspan="1">1632309277324</td><td rowspan="1">30807</td></tr><tr class="failedeven"><td><a href="#m2">Documents_Non_Verifies</a></td><td rowspan="1">1632309463285</td><td rowspan="1">40521</td></tr><tr class="failedeven"><td><a href="#m3">Documents_Supprimes</a></td><td rowspan="1">1632309344292</td><td rowspan="1">28423</td></tr><tr class="failedeven"><td><a href="#m4">Documents_Supprimes_pour_verifiés</a></td><td rowspan="1">1632309539300</td><td rowspan="1">30553</td></tr><tr class="failedeven"><td><a href="#m5">Documents_Verifier</a></td><td rowspan="1">1632309407560</td><td rowspan="1">18341</td></tr></tbody>
+</table>
+<h2>End To End Test</h2><h3 id="m0">com.invoice_portal.testcase.DemandeSignature#Clique_Voir_Historique</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.StaleElementReferenceException: stale element reference: element is not attached to the page document
+  (Session info: chrome=93.0.4577.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#stale_element_reference
+Build info: version: &apos;4.0.0-alpha-6&apos;, revision: &apos;5f43a29cfc&apos;
+System info: host: &apos;IMEX&apos;, ip: &apos;127.0.1.1&apos;, os.name: &apos;Linux&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;5.11.0-34-generic&apos;, java.version: &apos;11.0.11&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 93.0.4577.82, chrome: {chromedriverVersion: 93.0.4577.63 (ff5c0da2ec0ad..., userDataDir: /tmp/.com.google.Chrome.ZgU6Ze}, goog:chromeOptions: {debuggerAddress: localhost:41819}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: LINUX, platformName: LINUX, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 2215187e49af0764a45aefa2a65ad024
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:196)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:129)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:582)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:316)
+	at org.openqa.selenium.remote.RemoteWebElement.isDisplayed(RemoteWebElement.java:363)
+	at com.invoice_portal.testcase.DemandeSignature.Clique_Voir_Historique(DemandeSignature.java:93)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.invoice_portal.testcase.DemandeSignature#Documents_Non_Signes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: http://localhost:8081/admin/HistoriqueUploadAnce/ expected:&lt;http://localhost:8081/admin/HistoriqueUploadAnce/&gt; but was:&lt;La page documents non signés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Non_Signes(DemandeSignature.java:114)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.invoice_portal.testcase.DemandeSignature#Documents_Non_Verifies</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: http://localhost:8081/admin/historiqueVerify expected:&lt;http://localhost:8081/admin/historiqueVerify&gt; but was:&lt;La page documents non vérifiés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Non_Verifies(DemandeSignature.java:171)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">com.invoice_portal.testcase.DemandeSignature#Documents_Supprimes</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: http://localhost:8081/admin/HistoriqueUploadAnce/ expected:&lt;http://localhost:8081/admin/HistoriqueUploadAnce/&gt; but was:&lt;La page documents supprimés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes(DemandeSignature.java:132)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.invoice_portal.testcase.DemandeSignature#Documents_Supprimes_pour_verifiés</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: http://localhost:8081/admin/historiqueVerify expected:&lt;http://localhost:8081/admin/historiqueVerify&gt; but was:&lt;La page documents supprimés pour vérifiés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Supprimes_pour_verifiés(DemandeSignature.java:193)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.invoice_portal.testcase.DemandeSignature#Documents_Verifier</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>public void com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(java.lang.reflect.Method) throws java.lang.InterruptedException</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: http://localhost:8081/admin/historiqueVerify expected:&lt;http://localhost:8081/admin/historiqueVerify&gt; but was:&lt;La page documents vérifiés non charger&gt;
+	at com.invoice_portal.testcase.DemandeSignature.Documents_Verifier(DemandeSignature.java:150)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 28 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
